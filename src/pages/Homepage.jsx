@@ -219,7 +219,14 @@ export default function Homepage() {
 
 <button
   onClick={() => navigate("/upload")}
-  className="px-6 py-3 bg-gradient-to-r from-green-400 to-blue-500 text-white rounded-lg shadow-lg"
+  className="px-6 py-2 
+    rounded-lg 
+    text-white 
+    bg-gradient-to-r from-green-400 to-blue-500 
+    transition-all duration-300
+
+    hover:opacity-80 
+    hover:text-black"
 >
   Select File
 </button>
@@ -257,7 +264,14 @@ export default function Homepage() {
             Enter your consumption data manually through our intuitive entry interface with real-time validation.
           </p>
           <div className="flex justify-center mt-6">
-            <button className="px-6 py-2 bg-gradient-to-r from-green-400 to-blue-500 text-white rounded-lg hover:opacity-90">
+            <button className="px-6 py-2 
+    rounded-lg 
+    text-white 
+    bg-gradient-to-r from-green-400 to-blue-500 
+    transition-all duration-300
+
+    hover:opacity-80 
+    hover:text-black">
               Start Entry
             </button>
           </div>
@@ -282,7 +296,14 @@ export default function Homepage() {
             Download our standardized Excel template, fill it offline, and upload it for seamless integration.
           </p>
           <div className="flex justify-center mt-6">
-            <button className="px-6 py-2 bg-gradient-to-r from-green-400 to-blue-500 text-white rounded-lg hover:opacity-90">
+            <button className="px-6 py-2 
+    rounded-lg 
+    text-white 
+    bg-gradient-to-r from-green-400 to-blue-500 
+    transition-all duration-300
+
+    hover:opacity-80 
+    hover:text-black">
             Download Template
             </button>
           </div>

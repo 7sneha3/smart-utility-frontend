@@ -45,7 +45,7 @@ const AdminLogin = () => {
           {/* Icon */}
           <div className="flex justify-center mb-3">
             <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-green-400 to-blue-500 flex items-center justify-center shadow-lg">
-              <span className="text-white text-2xl font-bold">⚡</span>
+            <img src="/mainlogo.png" alt="logo" className="w-9 h-9 object-contain" />
             </div>
           </div>
 

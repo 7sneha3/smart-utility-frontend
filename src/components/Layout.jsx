@@ -9,7 +9,7 @@ export default function Layout({ children }) {
 
       {/* Hamburger Button */}
       <button
-        className="absolute top-4 left-4 z-[60] p-3 rounded-xl bg-white/10 
+        className="fixed top-4 left-4 z-[60] p-3 rounded-xl bg-white/10 
                    backdrop-blur-md border border-white/20 hover:bg-white/20 
                    transition-all flex items-center justify-center"
         onClick={() => setIsOpen(!isOpen)}

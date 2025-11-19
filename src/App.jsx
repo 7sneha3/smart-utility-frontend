@@ -6,11 +6,13 @@ import Homepage from "./pages/Homepage";
 import UploadPage from "./pages/UploadPage";
 import ReportsPage from "./pages/Reports";
 import FAQ from "./pages/FAQ";
+import ScrollToTop from "./components/ScrollToTop";
 import './index.css';
 
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<AdminLogin />} />
         <Route path="/homepage" element={<Homepage />} />
