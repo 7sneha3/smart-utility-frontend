@@ -17,15 +17,17 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## 🛠️ Installation & Setup
 1️⃣ Clone the repo
-git clone https://github.com/7sneha3/smart-utility-frontend.git
 
-cd smart-utility-frontend
+-> git clone https://github.com/7sneha3/smart-utility-frontend.git
+-> cd smart-utility-frontend
 
 2️⃣ Install dependencies
-npm install
+
+-> npm install
 
 3️⃣ Start the development server
-npm run dev
+
+-> npm run dev
 
 Frontend will run at:
 👉 http://localhost:5173
