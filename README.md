@@ -19,6 +19,7 @@ If you are developing a production application, we recommend using TypeScript wi
 1️⃣ Clone the repo
 
 -> git clone https://github.com/7sneha3/smart-utility-frontend.git
+
 -> cd smart-utility-frontend
 
 2️⃣ Install dependencies
