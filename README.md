@@ -14,3 +14,17 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠️ Installation & Setup
+1️⃣ Clone the repo
+git clone https://github.com/7sneha3/smart-utility-frontend.git
+cd smart-utility-frontend
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Start the development server
+npm run dev
+
+Frontend will run at:
+👉 http://localhost:5173
